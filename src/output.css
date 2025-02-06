@@ -596,6 +596,10 @@ video {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -615,6 +619,11 @@ video {
 .mx-\[5\%\] {
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mb-6 {
@@ -637,6 +646,11 @@ video {
   height: 100vh;
 }
 
+
+.h-full {
+  height: 100%;
+}
+
 .w-\[70\%\] {
   width: 70%;
 }
@@ -644,6 +658,15 @@ video {
 .w-full {
   width: 100%;
 }
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
 
 .max-w-7xl {
   max-width: 80rem;
@@ -669,8 +692,16 @@ video {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -742,6 +773,38 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+
+}
+
+.py-64 {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
+.py-44 {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.py-48 {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+
 }
 
 .pt-\[25px\] {
@@ -758,12 +821,45 @@ video {
   line-height: 1.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .font-medium {
   font-weight: 500;
 }
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .text-black {
@@ -862,6 +958,12 @@ video {
 .before\:content-\[\'\'\]::before {
   --tw-content: '';
   content: var(--tw-content);
+}
+
+@media (min-width: 640px) {
+  .sm\:hidden {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
