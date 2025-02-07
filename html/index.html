@@ -11,17 +11,19 @@
 </head>
 
 <body class="w-full">
-    <div class="w-full h-screen top-0 bg-cover bg-center before:bg-no-repeat before:bg-gradient-to-r before:from-blue-600 before:to-transparent before:absolute before:top-0 before:left-0 before:w-full before:h-full before:content-['']"
-        style="background-image: url(../images/pics/pic5.jpg);">
-        <div class="flex flex-col">
+    <div class="flex flex-col relative w-full">
+
+        <div class="w-full 2xl:h-[1000px] xl:h-[700px] lg:h-[800px] bg-cover bg-center before:bg-no-repeat before:bg-gradient-to-r before:from-blue-700 before:to-transparent before:absolute before:top-0 before:left-0 before:w-full 2xl:before:h-[1000px] xl:before:h-[700px] lg:before:h-[800px] before:content-['']"
+            style="background-image: url(../images/pics/pic5.jpg);">
             <!-- header -->
-            <div class="max-w-7xl xl:container xl:mx-auto md:mx-[5%] mx-[5%] z-10  py-6">
+            <div class="max-w-7xl xl:max-w-full xl:mx-[10%] md:mx-[5%] mx-[5%] z-10  py-6 sticky">
+
                 <div class="flex  w-full justify-between items-center ">
                     <div class="flex items-center">
                         <img src="../images/logos/logo-white.png" class="h-10 md:h-full" alt="">
                     </div>
                     <div class="flex lg:space-x-3 justify-end content-end">
-                        <ul class="hidden lg:flex flex-row text-white text-sm space-x-8 font-medium items-center  ">
+                        <ul class="lg:flex flex-row text-white text-sm space-x-8 font-medium items-center hidden ">
                             <li>Home</li>
                             <li>Pages</li>
                             <li>Services</li>
@@ -37,47 +39,45 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- mobile menu -->
-            <div
-                class=" left-0 top-0 bg-white z-10 absolute h-screen md:w-[35%] w-[70%] flex flex-col px-[20px] pt-[25px] hidden">
-                <div class="flex items-center mb-6">
-                    <img src="../images/logos/logo-5.png" class="h-10 md:h-full" alt="">
-                </div>
-                <ul class="flex flex-col text-black text-base font-medium items-start w-full">
-                    <li class="border-b-gray-300 border-b w-full py-3 font-semibold px-1">Home</li>
-                    <li class="border-b-gray-300 border-b w-full py-3 font-semibold px-1">Pages</li>
-                    <li class="border-b-gray-300 border-b w-full py-3 font-semibold px-1">Services</li>
-                    <li class="border-b-gray-300 border-b w-full py-3 font-semibold px-1">Post layout</li>
-                    <li class="border-b-gray-300 border-b w-full py-3 font-semibold px-1">Blog</li>
-                    <li class="border-b-gray-300 border-b w-full py-3 font-semibold px-1">Contact Us</li>
-                </ul>
-                <!-- mobile menu social medias -->
-                <!-- <ul class="flex">
-            <li>F</li>
-            <li>X</li>
-            <li>In</li>
-            <li>Ig</li>
-         </ul> -->
-            </div>
-            <!-- main section -->
-            <div class="relative container xl:mx-auto ml-[5%] pt-60px">
-                <div class="xl:w-[50%] w-full space-y-6">
-                    <h3 class="text-white font-semibold text-base">Product designer</h3>
-                    <h1 class="text-white font-extrabold xl:text-7xl text-5xl">We are product designer</h1>
-                    <p class="text-white xl:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
-                        atque velit voluptatibus, corrupti aperiam veritatis dignissimos </p>
-
-                    <button class="border-2 border-white bg-white uppercase px-6 py-4 font-semibold rounded-sm">Get
-                        Started</button>
-                    <button
-                        class="border-2 border-white bg-transparent text-white uppercase px-6 py-[15px] font-semibold rounded-sm"><img
-                            src="../images/icons/play-icon.svg" class="w-fit h-fit inline" alt=""> Watch Video </button>
-
-                </div>
-            </div>
         </div>
-
+        <!-- mobile menu -->
+        <div class=" left-0 top-0 bg-white z-10 absolute h-screen md:w-[35%] w-[70%] flex flex-col px-[20px] pt-[25px] hidden">
+            <div class="flex items-center mb-6">
+                <img src="../images/logos/logo-5.png" class="h-10 md:h-full" alt="">
+            </div>
+            <ul class="flex flex-col text-black text-base font-medium items-start w-full">
+                <li class="border-b-gray-300 border-b w-full py-3 font-semibold px-1">Home</li>
+                <li class="border-b-gray-300 border-b w-full py-3 font-semibold px-1">Pages</li>
+                <li class="border-b-gray-300 border-b w-full py-3 font-semibold px-1">Services</li>
+                <li class="border-b-gray-300 border-b w-full py-3 font-semibold px-1">Post layout</li>
+                <li class="border-b-gray-300 border-b w-full py-3 font-semibold px-1">Blog</li>
+                <li class="border-b-gray-300 border-b w-full py-3 font-semibold px-1">Contact Us</li>
+            </ul>
+            <!-- mobile menu social medias -->
+             <!-- <ul class="flex">
+                <li>F</li>
+                <li>X</li>
+                <li>In</li>
+                <li>Ig</li>
+             </ul> -->
+        </div>
+        <!-- main section -->
+         
+            <!-- main section -->
+            <div class="max-w-7xl xl:max-w-full xl:mx-[10%] md:mx-[5%] mx-[5%] 2xl:py-6 xl:py-2">
+                <div class="flex flex-col relative h-auto 2xl:w-1/2 xl:w-[65%]  2xl:py-44 xl:py-24 2xl:space-y-[7%] xl:space-y-[5%]">
+                    <h3 class="font-bold xl:text-xl text-white">We are the best</h3>
+                    <h1 class="2xl:text-7xl xl:text-6xl font-bold capitalize text-white my-4">freelace product designer running</h1>
+                    <p class="text-white 2xl:text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero alias pariatur veritatis corrupti aliquam reprehenderit assumenda. Numquam totam ipsa deleniti </p>
+                    <div class="">
+                        <button class="border-2 bg-transparent border-white px-4 py-4 w-fit text-lg text-white rounded-sm">Get Started</button>
+                        <button class="border-2 bg-white border-white px-4 py-4 w-fit text-lg text-black rounded-sm">Watch video</button>
+                        
+                    </div>
+                   
+                </div>
+            
+         </div>
     </div>
 
 </body>
