@@ -602,6 +602,16 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mx-\[10\%\] {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.mx-\[\] {
+  margin-left: ;
+  margin-right: ;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -830,6 +840,10 @@ video {
 
 .gap-7 {
   gap: 1.75rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-y-3 {
@@ -1243,6 +1257,11 @@ video {
     margin-right: auto;
   }
 
+  .md\:mx-\[10\%\] {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
   .md\:ml-5 {
     margin-left: 1.25rem;
   }
@@ -1275,12 +1294,24 @@ video {
     width: 80%;
   }
 
+  .md\:w-\[70\%\] {
+    width: 70%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
   .md\:items-start {
     align-items: flex-start;
+  }
+
+  .md\:justify-end {
+    justify-content: flex-end;
   }
 
   .md\:gap-4 {
@@ -1331,6 +1362,11 @@ video {
   .md\:font-bold {
     font-weight: 700;
   }
+
+  .md\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1354,6 +1390,10 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:gap-3 {
     gap: 0.75rem;
   }
@@ -1374,6 +1414,16 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(1.75rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
+  }
+
+  .lg\:bg-blue-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
+  }
+
+  .lg\:bg-white {
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
   }
 
   .lg\:px-6 {
@@ -1399,6 +1449,16 @@ video {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  }
+
+  .lg\:text-blue-950 {
+    --tw-text-opacity: 1;
+    color: rgb(23 37 84 / var(--tw-text-opacity, 1));
   }
 
   .lg\:before\:h-\[600px\]::before {
